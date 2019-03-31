@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--css reset-->
+    <link rel="stylesheet" type="text/css" href="assests\css\reset.css">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assests\css\style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+    <title>Reaction GIFs</title>
+</head>
+    <header>
+        <br>
+        <h1>Reaction GIF Search!</h1>
+        <hr>
+    </header>
+    <body>
+        <div class='contained'>
+            <div id="buttons-view"></div>
+            <br>
+            <form id="reaction-form">
+            <label class="btn-outline-info" for="reaction-input">Add a reaction button!</label>
+            <input type="text" id="reaction-input">    
+            <input id="add-reaction" type="submit" value="Add a reaction!" class="btn btn-secondary">
+            </form>
+            <br>
+
+            <div id="gif-view">
+            </div>
+        </div>  
+        <!--javascript file-->
+        <script type="text/javascript" src='assests/javascript/app.js'></script>
+    </body>
+</html>
